@@ -66,7 +66,7 @@ class Hadrosaur extends Dinosaur{
 }
 
 class UnknownDinosaur extends Dinosaur{
-	public Unknown{
+	public UnknownDinosaur(){
 		SpeciesName = "never used";
 		Height = 2000; // m
 		Weight = 1000; // tons
