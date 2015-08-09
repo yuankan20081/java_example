@@ -37,7 +37,7 @@ class Apatosaurus extends Dinosaur{
 		Speed = 10; // m/s
 	}
 	
-
+	@Override
 	public void MeetOthers(){
 		System.out.println("Hi, my name is" + SpeciesName);
 		System.out.println("my height is " + Height);
@@ -55,7 +55,7 @@ class Hadrosaur extends Dinosaur{
 		Speed = 100; // m/s		
 	}
 	
-
+	@Override
 	public void MeetOthers(){
 		System.out.println("Hi, my name is" + SpeciesName);
 		System.out.println("my height is " + Height);
